@@ -1,25 +1,19 @@
 * {
-    line-height: 1.5;
+    line-height: 1.125;
 
 }
-
-
-
-
 
 body {
     margin: 0;
     font-family: poppins, sans-serif;
     background-color: #1c8bc1;
-    
-   
+    font-size: 0.75em;
 }
-
 
 header {
     background-color: 	#760a0a;
     width: 100%;
-    height: 160px;
+    height: 120px;
     display: flex;
     justify-content: center; 
     align-items: center;
@@ -42,16 +36,16 @@ nav ul {
 }
 
 nav li {
-    margin: 0 45px;
+    margin: 0 33.75px;
 }
 
 nav a {
     color: white;
     text-decoration: none;
-    font-size: 2.2rem;
+    font-size: 1.65rem;
     font-weight: bold;
-    padding: 10px;
-    border-radius: 5px;
+    padding: 7.5px;
+    border-radius: 3.75px;
     
 }
 
@@ -63,60 +57,48 @@ nav a:hover {
 header h1 {
     margin: 0;
     color: white;
-    font-size: 3rem;
+    font-size: 2.25rem;
     font-weight: bold;
     position: absolute;
-    left: 50px;
+    left: 37.5px;
 }
 
 .intro {
     background-color: #f2f2f2;
-    padding: 120px;
+    padding: 90px;
     display: flex;
     max-width: 100%;
     width: 100%;
-    max-height: 619px;
+    max-height: 464.25px;
     align-items: center;
     justify-content: center;
-    
-    
-    
-    
-    
 }
 
-
 .intro h2 {
-    font-size: 3.5rem;
+    font-size: 2.625rem;
     font-weight: bold;
     margin: 0;
-    margin-bottom: 20px;
-    
+    margin-bottom: 15px;
 }
 
 .intro p {
-    font-size: 1.8rem;
+    font-size: 1.35rem;
     margin: 0;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .intro img {
-   
-    height: 25%;
-    width: 25%;
-    border-radius: 39px;
-    margin: 10px;
+    height: 18.75%;
+    width: 18.75%;
+    border-radius: 29.25px;
+    margin: 7.5px;
     justify-content: flex-end;
     display: flex;
-
-
 }
 
 .intro section {
-    width: 50vw;
-    padding: 50px;
-    
-
+    width: 37.5vw;
+    padding: 37.5px;
 }
 
 .software-section {
@@ -127,28 +109,28 @@ header h1 {
 }
 
 .software {
-    margin: 20px;
-    padding: 20px;
+    margin: 15px;
+    padding: 15px;
     background-color: #f2f2f2;
-    border-radius: 10px;
+    border-radius: 7.5px;
     text-align: center;
-    width: 750px;
-    height: 500px;
+    width: 500px;
+    height: 300px;
 }
 
 .software img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    margin-bottom: 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 37.5%;
+    margin-bottom: 15px;
 }
 
 .software h2 {
-    font-size: 2rem;
-    margin-bottom: 10px;
+    font-size: 1.5rem;
+    margin-bottom: 7.5px;
 }
 
 .software p {
-    font-size: 1.2rem;
-    line-height: 1.5;
+    font-size: 1.05rem;
+    line-height: 1.125;
 }
